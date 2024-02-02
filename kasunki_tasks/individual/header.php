@@ -12,9 +12,9 @@
         <p class="news">NEWS</p>
         <nav>
           <ul>
-             <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/ex2/contact.php">Contact</a></li>
-             <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/ex1.php">Exercise 1</a></li>
-             <li><a href="hhttp://shell.hamk.fi/~kasunki23000/kasunki_tasks/ex2/page.php">Exercise 2</a></li>
+             <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/contact.php">Contact</a></li>
+             <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/ex1.php">Exercise 1</a></li>
+             <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/ex2.php">Exercise 2</a></li>
              <li><a href="Exercise 3.html">Exercise 3</a></li>
              <li><a href="Exercise 4.html">Exercise 4</a></li>
              <li><a href="Exercise 5.html">Exercise 5</a></li>
