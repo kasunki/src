@@ -1,0 +1,119 @@
+body 
+{
+ background-color: antiquewhite;
+}
+
+.container
+{
+ width: 700px;
+ margin: 16px auto;
+ text-align: left;
+}
+
+.news
+{
+ text-align: center;
+ font-size: 40px;
+ font-weight: bold;
+ font-family: cursive;
+ letter-spacing: 5px;
+ margin-left: 0;
+}
+
+nav li
+{
+ display: inline;
+ font-size: 20px;
+ margin-right: 15px;
+ padding-left: 0;
+}
+
+nav a:hover 
+{
+ color: rgb(240, 233, 13);
+ text-decoration: wavy;
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: rgb(106, 83, 83);
+    margin-right: 15px;
+    padding-left: 5%;
+}
+
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: brown;
+    margin-right: 15px;
+    padding-left: 5%;
+}
+
+h3
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(106, 83, 83);
+    padding-left: 5%;
+}
+
+h4
+{
+   font-family: sans-serif;
+   font-size: 24px;
+   color: rgb(106, 83, 83);
+   padding-left: 5%;
+}   
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+date
+{
+    font-size: 8px;
+}
+
+a:visited 
+{
+    color: rgb(46, 154, 46);
+}
+
+a:active
+{
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+
+p
+{
+    background-image: url("paper.gif");
+    padding-left: 5%;
+}
+
+img
+{
+  width: 700px;
+  height: auto;
+}
+
+footer
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 14px;
+}
+
+footer li
+{
+  display: inline;
+  font-size: 20px;
+  margin-right: 15px;
+  padding-left: 0;
+  
+}
