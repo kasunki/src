@@ -20,6 +20,7 @@
             echo "<h3>Hello ".$firstname." ".$lastname.",<br> You are welcome to my site.</h3>";
         }
         ?>
+        <br><br>
         
     <h3>4. HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. Note, you have already done a table in Exercise 1. 
         If you wish, you can use the same table.</h3>
@@ -52,6 +53,7 @@
             <td><?php echo $g3 ?></td>
         </tr>
     </table>
+    <br><br>
 
     <h3>5. String Variables: Write a PHP script with two string variables ($str1 = "Hello"; $str2 = "World";). 
         Join them together and print the length of the string.</h3>
@@ -63,6 +65,7 @@
         echo $str3 ."<br>";
         echo "The length of the string is: " . strlen($str3);
         ?>
+         <br><br>
 
     <h3> 6. Number Addition: Write a script to add up the numbers: 298, 234, 46. 
          Use variables to store these numbers and an echo statement to output your answer.</h3>
@@ -74,6 +77,7 @@
         $total = $n1+$n2+$n3;
         echo "The total of these numbers are: " .$total;
         ?>
+     <br><br>
 
     <h3>7. Browser Detection: Write a PHP script to detect the browser being used to view your pages. 
         Hint: Use predefined variables: $_SERVER </h3>
@@ -82,6 +86,7 @@
        echo $_SERVER['HTTP_USER_AGENT'];
        echo "<br>";
        ?>
+     <br><br>
 
 
 

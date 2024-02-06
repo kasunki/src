@@ -5,11 +5,12 @@
     <h3>3.1 Write PHP code to output the following message: 
         Hello world! My name is "David"
     </h3>
-    
     <?php
     // use backslash to escape special characters like "
     echo "Hello world! My name is \"David\"";
     ?>
+     <br><br>
+
     <h3>3.2 Create a PHP variable named $title and assign it the value "PHP is interesting."
     Then, use this variable as the content within an (heading 4) element.
     </h3>
@@ -18,6 +19,7 @@
      $title = "PHP is interesting.";
     echo "<h4>$title</h4>";
     ?>
+     <br>
 
     <h3>3.3 Define three variables: $g1 = 5, $g2 = 4, and $g3 = 5. 
     These variables represent the grades of three students in the course. 
@@ -53,9 +55,11 @@
             <td><?php echo $g3 ?></td>
         </tr>
     </table>
+    <br><br>
 
 <h3>3.4 Take a screenshot that confirms your development environment setup 
     and include it as an image in the "ex1.php" file.</h3>
 <img src ="images/development environment.png" alt="web development environment"/>
+<br><br>
 
 <?php include 'footer.php' ?>

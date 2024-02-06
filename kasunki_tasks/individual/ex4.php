@@ -27,7 +27,7 @@
        }
     }
         ?>
-        <br><br>
+        <br>
 
         <h3>3. Write a PHP script that gets the current month and prints one of the following responses,depending on whether it's August or not:</h3>
 
@@ -49,7 +49,7 @@
 
         <form method="post" name="multiplication_table" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
         number: <input type="number" name="number" placeholder="Enter a number" required> <br> <br>
-        <input type="submit" class="btn btn-danger" value="Generate Table"><br><br>
+        <input type="submit" class="btn btn-danger" value="Generate Table"><br>
         
         </form>
 
@@ -84,7 +84,7 @@
 
        <form method="post" name="multiplication_table" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
         number: <input type="number" name="number1" placeholder="Enter a number" required> <br> <br>
-        <input type="submit" class="btn btn-danger" value="submit"><br><br>
+        <input type="submit" class="btn btn-danger" value="submit"><br>
         
        </form>
 
@@ -119,6 +119,7 @@
             echo "".$value."<br>"; 
         }
         ?>
+         <br>
 
 
 <?php include 'footer.php'; ?>
