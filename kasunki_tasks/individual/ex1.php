@@ -1,6 +1,6 @@
     <?php
     $title = "Exercise 1: Getting Started with PHP"; 
-    include 'header.php' ?>
+    include 'header.php'; ?>
 
     <h3>3.1 Write PHP code to output the following message: 
         Hello world! My name is "David"
@@ -62,4 +62,4 @@
 <img src ="images/development environment.png" alt="web development environment"/>
 <br><br>
 
-<?php include 'footer.php' ?>
+<?php include 'footer.php'; ?>

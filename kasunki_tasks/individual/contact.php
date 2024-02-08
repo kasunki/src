@@ -1,7 +1,7 @@
  <?php
     $title = "Contact"; 
-    include 'header.php' ?>
-    <h3>My Contact Information</h3>
+    include 'header.php'; ?>
+    <h4><b>My Contact Information</b></h4>
 
     <h4>Address</h4>
 
@@ -17,4 +17,4 @@
 
     <p>kasunkie@gmail.com</p>
 
-    <?php include 'footer.php' ?>
+    <?php include 'footer.php'; ?>

@@ -12,7 +12,7 @@
          $filename = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['SCRIPT_NAME'];
          $lastModifiedTime = filemtime($filename);
          $formattedLastModified = date("F j, Y, g:i a", $lastModifiedTime);
-         echo "Last modified: " . $formattedLastModified;
+         echo "<p>Last modified: $formattedLastModified</p>";
          ?>
 
   </footer>

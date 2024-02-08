@@ -2,7 +2,7 @@
 <?php 
         $title = "Where will all the electric cars be charged?"; 
               
-        include 'header.php' ?>
+        include 'header.php'; ?>
 
 
         <h1>Where will all the electric cars be charged?</h1>
@@ -15,4 +15,4 @@
         <p>The Dutch company CityCharge also offers lamppost charging, but with a different model that requires new cables to be installed. CityCharge replaces conventional lighting poles with aluminium poles.</p>
          
  
-         <?php include 'footer.php' ?>
+         <?php include 'footer.php'; ?>
