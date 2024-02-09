@@ -49,7 +49,7 @@
 
         <form method="post" name="multiplication_table" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
         number: <input type="number" name="number" placeholder="Enter a number" required> <br> <br>
-        <input type="submit" class="btn btn-danger" value="Generate Table"><br>
+        <input type="submit" class="btn btn-danger" value="Generate Table" name="for"><br>
         
         </form>
 
