@@ -5,7 +5,7 @@ include '../web_project_group22/layout/header.php'; ?>
 
 <br><br><br>
 <h1>Reservation at The Gourmet</h1>
-<form name="reservation" method="post" action="process.php">
+<form name="reservation" method="post" action="process3.php">
     <div class="form-group">
         <div class="row">
             <div class="col-sm-1">

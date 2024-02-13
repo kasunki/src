@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
  
 // connect to the database server
 
-include'db.php';
+include'db3.php';
 
 // write sql statement to insert data
 $sql = "insert into Restaurant_week_reservation(first_name, last_name, email, menu, people, date, time)
