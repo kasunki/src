@@ -1,9 +1,10 @@
-<?php
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++<?php
 $title ="Vantaa Restaurant Week 2024";
 include '../web_project_group22/layout/header.php'; ?>
 
 <br><br><br>
-<h1>Reservation at The Gourmet:</h1>
+<h1>Reservation at The Gourmet</h1>
 <form name="reservation" method="post" action="process.php">
     <div class="form-group">
         <div class="row">
@@ -30,6 +31,7 @@ include '../web_project_group22/layout/header.php'; ?>
             <div class="col-sm-5">
                 <label for="menu">Menu:</label>
                 <select class="form-control" id="menu" name="menu">
+                    <option value="Curanto">Select a option</option>
                     <option value="Curanto">Curanto</option>
                     <option value="Dim Sum">Dim Sum</option>
                     <option value="Fondue">Fondue</option>
@@ -61,7 +63,7 @@ include '../web_project_group22/layout/header.php'; ?>
             </div>
             <div class="col-sm-5">
                 <label for="no_of_people">Number of people:</label>
-                <input type="number" class="form-control" id="fname" name="no_of_people" required>
+                <input type="number" class="form-control" id="people" name="no_of_people" required>
             </div>
         </div>
     </div>
