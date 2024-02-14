@@ -18,8 +18,6 @@
              <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/ex2.php">Exercise 2</a></li>
              <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/ex3.php">Exercise 3</a></li>
              <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/individual/ex4.php">Exercise 4</a></li>
-             <li><a href="Exercise 5.html">Exercise 5</a></li>
-             <li><a href="Exercise 6.html">Exercise 6</a></li>
              <li><a href="Exercise 7.html">Exercise 7</a></li>
              <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/crud/index.php">Create Data</a></li>
              <li><a href="http://shell.hamk.fi/~kasunki23000/kasunki_tasks/crud/read.php">Read Data</a></li>
