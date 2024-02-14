@@ -1,5 +1,5 @@
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++<?php
+<?php
 $title ="Vantaa Restaurant Week 2024";
 include '../web_project_group22/layout/header.php'; ?>
 
@@ -12,11 +12,11 @@ include '../web_project_group22/layout/header.php'; ?>
             </div>
             <div class="col-sm-5">
                 <label for="fname">First Name:</label>
-                <input type="text" class="form-control" id="fname" placeholder="Enter your first name here" name="fname" required>
+                <input type="text" class="form-control" id="fname" placeholder="Enter your first name here" name="fname" required minlength="3" maxlength="25">
             </div>
             <div class="col-sm-5">
                 <label for="lname">Last Name:</label>
-                <input type="text" class="form-control" id="lname" placeholder="Enter your last name here" name="lname" required>
+                <input type="text" class="form-control" id="lname" placeholder="Enter your last name here" name="lname" required minlength="3" maxlength="25">
             </div>
         </div>
     </div>
@@ -26,11 +26,11 @@ include '../web_project_group22/layout/header.php'; ?>
             </div>
             <div class="col-sm-5">
                 <label for="email">Email:</label>
-                <input type="text" class="form-control" id="email" placeholder="Enter your email here" name="email" required>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email here" name="email" required>
             </div>
             <div class="col-sm-5">
                 <label for="menu">Menu:</label>
-                <select class="form-control" id="menu" name="menu">
+                <select class="form-control" id="menu" name="menu" required>
                     <option value="Curanto">Select a option</option>
                     <option value="Curanto">Curanto</option>
                     <option value="Dim Sum">Dim Sum</option>
