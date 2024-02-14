@@ -1,6 +1,6 @@
 
 <?php 
-        $title = "Where will all the electric cars be charged?"; 
+        $title = "Exercise 2"; 
               
         include 'header.php'; ?>
 
