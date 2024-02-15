@@ -1,9 +1,9 @@
 <?php
 $title = "Read Your Data";
-include("../individual/header.php");
-include 'db.php';
+include '../web_project_group22/layout/header.php'; 
+include 'db5.php';
 // SQL query to retrieve data from the 'studentsinfo' table
-$sql = "SELECT * FROM studentsinfo";
+$sql = "SELECT * FROM Order_online";
 
 // Execute the SQL query and store the result
 $result = $conn->query($sql);
@@ -13,11 +13,15 @@ if ($result->num_rows > 0) {
     echo "<table class='table'>
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>City</th>
-                    <th>Group ID</th>
+                    <th>order_no</th>
+                    <th>name</th>
+                    <th>address</th>
+                    <th>email</th>
+                    <th>contact_number</th>
+                    <th>delivery_date</th>
+                    <th>delivery_time</th>
+                    <th>menu</th>
+                    <th>number_of_portions</th>
                 </tr>
             </thead>
             <tbody>";
