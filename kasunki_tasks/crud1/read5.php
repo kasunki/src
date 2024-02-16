@@ -1,8 +1,8 @@
 <?php
-$title = "Read Your Data";
+$title = "Read Data";
 include '../web_project_group22/layout/header.php'; 
 include 'db5.php';
-// SQL query to retrieve data from the 'studentsinfo' table
+// SQL query to retrieve data from the 'Order_online' table
 $sql = "SELECT * FROM Order_online";
 
 // Execute the SQL query and store the result
@@ -29,11 +29,15 @@ if ($result->num_rows > 0) {
     // Loop through the result set and display data in rows
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
-                <td><a href='updatesingle.php?id=$row[id]'>$row[id]</a></td>
-                <td>{$row['first_name']}</td>
-                <td>{$row['last_name']}</td>
-                <td>{$row['city']}</td>
-                <td>{$row['groupId']}</td>
+                <td><a href='updatesingle5.php?order_no=$row[order_no]'><span style='color: red;'>$row[order_no]</a></td>
+                <td>{$row['name']}</td>
+                <td>{$row['address']}</td>
+                <td>{$row['email']}</td>
+                <td>{$row['contact_number']}</td>
+                <td>{$row['delivery_date']}</td>
+                <td>{$row['delivery_time']}</td>
+                <td>{$row['menu']}</td>
+                <td>{$row['number_of_portions']}</td>
               </tr>";
     }
 
@@ -45,5 +49,4 @@ if ($result->num_rows > 0) {
 // close the connection when done
 $conn->close();
 
-include '../individual/footer.php';
-?>
+include '../web_project_group22/layout/footer.php';  ?>
