@@ -29,11 +29,11 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
                 <td><a href='updatesingle3.php?table_no=$row[table_no]'><span style='color: red;'>$row[table_no]</a></td>
-                <td>{$row['fname']}</td>
-                <td>{$row['lname']}</td>
+                <td>{$row['first_name']}</td>
+                <td>{$row['last_name']}</td>
                 <td>{$row['email']}</td>
                 <td>{$row['menu']}</td>
-                <td>{$row['no_of_people']}</td>
+                <td>{$row['people']}</td>
                 <td>{$row['date']}</td>
                 <td>{$row['time']}</td>
               </tr>";

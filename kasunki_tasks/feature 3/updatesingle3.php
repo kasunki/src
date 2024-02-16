@@ -11,10 +11,10 @@ $row= mysqli_fetch_array($result);
 <form name= "table_no" method="post" action="">
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="fname" name="fname" required value="<?php echo $row['fname']; ?>">
+      <input type="text" class="form-control" placeholder="fname" name="fname" required value="<?php echo $row['first_name']; ?>">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="lname" name="lname" required value="<?php echo $row['lname']; ?>" >
+      <input type="text" class="form-control" placeholder="lname" name="lname" required value="<?php echo $row['last_name']; ?>" >
     </div>
   </div>
   <br>
@@ -31,7 +31,7 @@ $row= mysqli_fetch_array($result);
  <br>
   <div class="row">
     <div class="col">
-    <input type="number" class="form-control" placeholder="number_of_people" name="number_of_people" required value="<?php echo $row['number_of_people']; ?>">
+    <input type="number" class="form-control" placeholder="number_of_people" name="number_of_people" required value="<?php echo $row['people']; ?>">
     </div>
 
     <div class="col">
