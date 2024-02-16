@@ -35,17 +35,19 @@ $row= mysqli_fetch_array($result);
     </div>
 
     <div class="col">
-    <input type="date" class="form-control" placeholder="date" name="date" required value="<?php echo $row['date']; ?>">    
+    <input type="date" class="form-control" placeholder="date" name="date" required value="<?php echo $row['d_date']; ?>">    
     </div>
   </div>
 <br>
 <br>
   <div class="row">
     <div class="col">
-    <input type="time" class="form-control" placeholder="time" name="time" required value="<?php echo $row['time']; ?>"> 
+    <input type="time" class="form-control" placeholder="time" name="time" required value="<?php echo $row['d_time']; ?>"> 
     </div>
-
+    <div class="col">
+    </div>
 <br>
+<br><br>
   <div class="row">
   <div class="col"><button type="submit" class="btn btn-primary" name="submit">Update your Information</button></div>
   <div class="col"><button type="submit" class="btn btn-primary" name="delete">Delete your Information</button></div>
@@ -63,7 +65,7 @@ if (isset($_POST['submit'])){
     $raw_date = $_POST['date'];
     $date = date('Y-m-d', strtotime($raw_date));
     $time = $_POST['time'];
-    $query = mysqli_query($conn,"UPDATE Restaurant_week_reservation SET name='$fname', lname='$lname', email='$email', menu='$menu', number_of_people='$no_of_people', date='$date', time='$time', 
+    $query = mysqli_query($conn,"UPDATE Restaurant_week_reservation SET first_name='$fname', last_name='$lname', email='$email', menu='$menu', people='$no_of_people', d_date='$date', d_time='$time' 
     WHERE table_no='$a'");
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";

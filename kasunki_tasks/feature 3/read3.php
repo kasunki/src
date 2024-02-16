@@ -34,8 +34,8 @@ if ($result->num_rows > 0) {
                 <td>{$row['email']}</td>
                 <td>{$row['menu']}</td>
                 <td>{$row['people']}</td>
-                <td>{$row['date']}</td>
-                <td>{$row['time']}</td>
+                <td>{$row['d_date']}</td>
+                <td>{$row['d_time']}</td>
               </tr>";
     }
 

@@ -11,10 +11,10 @@ $row= mysqli_fetch_array($result);
 <form name= "order_no" method="post" action="">
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="name" name="name" required value="<?php echo $row['name']; ?>">
+      <input type="text" class="form-control" placeholder="name" name="name" required value="<?php echo $row['fname']; ?>">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="address" name="address" required value="<?php echo $row['address']; ?>" >
+      <input type="text" class="form-control" placeholder="address" name="address" required value="<?php echo $row['d_address']; ?>" >
     </div>
   </div>
   <br>
@@ -56,13 +56,7 @@ $row= mysqli_fetch_array($result);
 </div>
 </form>
 <?php 
-/* 
-The isset() function is used to check if a variable is set and not NULL.
- In this case, it's checking if the $_POST['submit'] 
-value is set and not NULL. If the form has been submitted, the value of $_POST['submit'] will be set,
-and the code inside the if block will be executed. If the form has not been submitted, 
-the value of $_POST['submit'] will not be set, and the code inside the if block will not be executed.
-*/
+
 if (isset($_POST['submit'])){
     
     $name = $_POST['name'];
@@ -74,7 +68,7 @@ if (isset($_POST['submit'])){
     $time = $_POST['time'];
     $menu = $_POST['menu'];
     $no_of_portions = $_POST['number_of_portions'];
-    $query = mysqli_query($conn,"UPDATE Order_online SET name='$name', address='$address', email='$email', contact_number='$contact_number', date='$date', time='$time', menu='$menu', number_of_portions='$no_of_portions'
+    $query = mysqli_query($conn,"UPDATE Order_online SET fname='$name', d_address='$address', email='$email', contact_number='$contact_number', delivery_date='$date', delivery_time='$time', menu='$menu', number_of_portions='$no_of_portions'
     WHERE order_no='$a'");
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";
