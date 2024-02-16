@@ -73,7 +73,7 @@ if (isset($_POST['submit'])){
     $date = date('Y-m-d', strtotime($raw_date));
     $time = $_POST['time'];
     $menu = $_POST['menu'];
-    $no_of_portions = $_POST['no_of_portions'];
+    $no_of_portions = $_POST['number_of_portions'];
     $query = mysqli_query($conn,"UPDATE Order_online SET name='$name', address='$address', email='$email', contact_number='$contact_number', date='$date', time='$time', menu='$menu', number_of_portions='$no_of_portions'
     WHERE order_no='$a'");
     if($query){
